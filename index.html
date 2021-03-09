@@ -1,7 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--references//https://medium.com/clarusway/making-a-todo-list-with-html-css-and-javascript-154839b770b6
+  //https://www.w3schools.com/howto/howto_js_todolist.asp
+  //https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/06/Screen-Shot-2018-06-13-at-10.31.06-PM.png-->
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="https://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous"></script>
     <title>My Personal Webpage</title>
   </head>
   <body>
@@ -34,13 +39,13 @@
  </ol>
 </div>
 <!-- this is where the input will go to make a list-->
-<h4 id="study">With what we'v already done, here's a way to make a list of stuff to study to build on our knowledge.</h4>
-<header>
-<input type="text" id="myinput" placeholder="You know theres a lot to study, add something here :)"/>
-<span class="addBtn" id="addButton">Add</span>
-</header>
-<ul id="theUl">
-  <li data-id=”0">Study time</li>
+  <h4>My To Do List</h4>
+<ul id="myUL">
+  <li class="list">Go over HTML</li>
+  <li class="list">Go over Ruby</li>
+  <li class="list">Go over JavaScript</li>
+  <li class="list">Go over DOM</li>
+  <li class="list">Study break</li>
 </ul>
 <script src="script.js"></script>
 </body>

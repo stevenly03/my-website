@@ -22,6 +22,12 @@ h1{
     
 
 }
+h4{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+}
 #labs1{
     color: #ffffff;
     font-size: 17pt;
@@ -65,25 +71,7 @@ input {
     align-content: center;
 }
 
-.addBtn {
-    width:25%;
-    padding: 10px;
-    margin-left:0;
-    background: green;
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    cursor: pointer;
-    transition: 0.3s;
-    font-family:fantasy;
-    font-weight: bold;
 
-}
-
-.addBtn:hover {
-    background-color: white
-    color: green
-}
 ul li {
 cursor:pointer;
 position: relative;
@@ -94,10 +82,7 @@ font-size: 14px;
 transition: 0.2s;
 font-family:fantasy;
 
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
+
 }
 ul li:nth-child(odd) {
     background: green;
@@ -125,5 +110,3 @@ ul li.check::before {
     height: 15px;
     width: 7px;
 }
-
-
