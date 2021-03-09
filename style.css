@@ -1,0 +1,44 @@
+body {
+    background: url(https://blog.hyperiondev.com/wp-content/uploads/2017/11/software-eng-pic.jpg);
+    background-size: cover;
+    font-family:fantasy ;
+    font-weight: bolder;
+
+}
+h1 {
+    text-align: center;
+    color:white;
+    background-color: #000000;
+
+}
+#thingsIveLearned {
+    text-align: center
+
+}
+#labs1{
+    color: #ffffff;
+    font-size: 17pt;
+    margin:0vh;
+    
+}
+#lab2{
+    color: white;
+    font-size: 16pt;
+}
+#lab3{
+    color:white;
+    font-size:16pt;
+    padding-top:40px;
+}
+a:link {
+    color:aqua ;
+  }
+a:visited {
+    color:green;
+  }
+a:hover {
+    color: blue;
+  }
+a:active {
+    color: purple;
+  }
