@@ -5,17 +5,19 @@
     <title>My Personal Webpage</title>
   </head>
   <body>
-<h1><strong>My Personal Webpage</strong></h1>
+<h1 id="myPersonalWebpage"><strong>My Personal Webpage</strong></h1>
 <div>
     <h1 id="thingsIveLearned">Some Labs I've Done in Phase 0</h1>
 </div>
+<!--HTML labs from Git-->
 <div id="labs1">    
-<ul><strong>HTML</strong>
+<ol><strong>HTML</strong>
   <li><a href="https://github.com/learn-co-curriculum/phase-0-html-lists-lab">HTML List</a></li>
   <li><a href="https://github.com/learn-co-curriculum/phase-0-html-tables-lab">HTML Table</a></li>
   <li><a href="https://learning.flatironschool.com/courses/3365/assignments/81703?module_item_id=159517">HTML Images</a></li>
-</ul>
+</ol>
 </div>
+ <!--CSS labs from Git-->
 <div id="lab2">
 <ol> CSS
   <li><a href="https://github.com/learn-co-curriculum/phase-0-css-rainbow-lab/blob/master/README.md">My Little Rainbow</a></li>
@@ -24,13 +26,22 @@
 </ol>
 </div>
 <div id="lab3">
-  <ul><em>JavaScript</em>
+  <!--Java labs from Git-->
+  <ol><em>JavaScript</em>
     <li><a href="https://github.com/learn-co-curriculum/phase-0-pac-3-intro-to-functions-lab">Introduction to Functions</a></li>
     <li><a href="https://github.com/learn-co-curriculum/phase-0-intro-to-js-2-array-lab">Arrays Lab</a></li>
     <li><a href ="https://github.com/learn-co-curriculum/phase-0-javascript-events-event-listening-lab">JavaScript Event Listeners</a></li>
- </ul>
+ </ol>
 </div>
-  
-  </body>
-  
+<!-- this is where the input will go to make a list-->
+<h4 id="study">With what we'v already done, here's a way to make a list of stuff to study to build on our knowledge.</h4>
+<header>
+<input type="text" id="myinput" placeholder="You know theres a lot to study, add something here :)"/>
+<span class="addBtn" id="addButton">Add</span>
+</header>
+<ul id="theUl">
+  <li data-id=”0">Study time</li>
+</ul>
+<script src="script.js"></script>
+</body>
 </html>
